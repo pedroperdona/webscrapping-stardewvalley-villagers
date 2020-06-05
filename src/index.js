@@ -29,7 +29,6 @@ app.get('/villagers', async (request, response) => {
 
       villagers.push(villager);
     });
-    console.log(villagers);
     return villagers;
   };
 
